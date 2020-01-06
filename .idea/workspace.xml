@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f4b26020-0f6b-4bba-b655-4581be61d1e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-generic.avro" beforeDir="false" afterPath="$PROJECT_DIR$/customer-generic.avro" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,9 +75,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager" selected="Application.SpecificRecord">
+  <component name="RunManager" selected="Application.ReflectedRecord">
     <configuration name="GenericRecord" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.pharosproduction.avro.generic.GenericRecordExamples" />
+      <module name="avro-examples" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectedRecord" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.pharosproduction.avro.reflection.ReflectionExample" />
       <module name="avro-examples" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,6 +122,7 @@
     <list>
       <item itemvalue="Application.GenericRecord" />
       <item itemvalue="Application.SpecificRecord" />
+      <item itemvalue="Application.ReflectedRecord" />
     </list>
   </component>
   <component name="RustProjectSettings">
@@ -153,7 +160,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578340543677</updated>
       <workItem from="1578340545209" duration="3546000" />
-      <workItem from="1578344187292" duration="2113000" />
+      <workItem from="1578344187292" duration="3265000" />
     </task>
     <servers />
   </component>
@@ -165,38 +172,46 @@
       <screen x="0" y="23" width="1680" height="964" />
     </state>
     <state x="60" y="169" key="#Project_Structure/0.23.1680.964@0.23.1680.964" timestamp="1578340567275" />
-    <state x="0" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578345215847">
+    <state x="0" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578347978113">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state x="0" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.962@0.23.1680.962" timestamp="1578345215847" />
+    <state x="0" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.962@0.23.1680.962" timestamp="1578347978113" />
     <state x="176" y="314" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578344090310">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
     <state x="176" y="314" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.962@0.23.1680.962" timestamp="1578344090310" />
-    <state x="273" y="295" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1578345210235">
+    <state x="310" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1578347654979">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state x="273" y="295" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1680.962@0.23.1680.962" timestamp="1578345210235" />
-    <state width="1111" height="258" key="GridCell.Tab.0.bottom" timestamp="1578346341340">
+    <state x="310" y="227" key="#com.intellij.ide.util.MemberChooser/0.23.1680.962@0.23.1680.962" timestamp="1578347654979" />
+    <state x="273" y="295" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1578347976208">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="1111" height="258" key="GridCell.Tab.0.bottom/0.23.1680.962@0.23.1680.962" timestamp="1578346341340" />
-    <state width="1111" height="258" key="GridCell.Tab.0.center" timestamp="1578346341339">
+    <state x="273" y="295" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1680.962@0.23.1680.962" timestamp="1578347976208" />
+    <state width="953" height="258" key="GridCell.Tab.0.bottom" timestamp="1578348130740">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="1111" height="258" key="GridCell.Tab.0.center/0.23.1680.962@0.23.1680.962" timestamp="1578346341339" />
-    <state width="1111" height="258" key="GridCell.Tab.0.left" timestamp="1578346341338">
+    <state width="953" height="258" key="GridCell.Tab.0.bottom/0.23.1680.962@0.23.1680.962" timestamp="1578348130740" />
+    <state width="953" height="258" key="GridCell.Tab.0.center" timestamp="1578348130739">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="1111" height="258" key="GridCell.Tab.0.left/0.23.1680.962@0.23.1680.962" timestamp="1578346341338" />
-    <state width="1111" height="258" key="GridCell.Tab.0.right" timestamp="1578346341339">
+    <state width="953" height="258" key="GridCell.Tab.0.center/0.23.1680.962@0.23.1680.962" timestamp="1578348130739" />
+    <state width="953" height="258" key="GridCell.Tab.0.left" timestamp="1578348130738">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="1111" height="258" key="GridCell.Tab.0.right/0.23.1680.962@0.23.1680.962" timestamp="1578346341339" />
+    <state width="953" height="258" key="GridCell.Tab.0.left/0.23.1680.962@0.23.1680.962" timestamp="1578348130738" />
+    <state width="953" height="258" key="GridCell.Tab.0.right" timestamp="1578348130740">
+      <screen x="0" y="23" width="1680" height="962" />
+    </state>
+    <state width="953" height="258" key="GridCell.Tab.0.right/0.23.1680.962@0.23.1680.962" timestamp="1578348130740" />
     <state x="0" y="143" key="SettingsEditor" timestamp="1578344949760">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
     <state x="0" y="143" key="SettingsEditor/0.23.1680.962@0.23.1680.962" timestamp="1578344949760" />
     <state x="0" y="143" key="SettingsEditor/0.23.1680.964@0.23.1680.964" timestamp="1578340693905" />
+    <state x="162" y="234" width="670" height="676" key="search.everywhere.popup" timestamp="1578347680764">
+      <screen x="0" y="23" width="1680" height="962" />
+    </state>
+    <state x="162" y="234" width="670" height="676" key="search.everywhere.popup/0.23.1680.962@0.23.1680.962" timestamp="1578347680764" />
   </component>
 </project>
