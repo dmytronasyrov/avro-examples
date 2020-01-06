@@ -1,8 +1,13 @@
 package com.pharosproduction.avro.generic;
 
 import org.apache.avro.Schema;
-import org.apache.avro.generic.GenericData;
-import org.apache.avro.generic.GenericRecordBuilder;
+import org.apache.avro.file.DataFileReader;
+import org.apache.avro.file.DataFileWriter;
+import org.apache.avro.generic.*;
+import org.apache.avro.io.DatumReader;
+
+import java.io.File;
+import java.io.IOException;
 
 public class GenericRecordExamples {
 
@@ -33,5 +38,26 @@ public class GenericRecordExamples {
     final GenericData.Record customer = customerBuilder.build();
     System.out.println(customer);
 
+    final GenericDatumWriter<GenericRecord> datumWriter = new GenericDatumWriter<>(schema);
+    try (DataFileWriter<GenericRecord> dataFileWriter = new DataFileWriter<>(datumWriter)) {
+      dataFileWriter.create(customer.getSchema(), new File("customer-generic.avro"));
+      dataFileWriter.append(customer);
+      System.out.println("Written customer-generic.avro");
+    } catch (IOException e) {
+      System.out.println("Couldn't write file");
+      e.printStackTrace();
+    }
+
+    final File file = new File("customer-generic.avro");
+    final DatumReader<GenericRecord> datumReader = new GenericDatumReader<>();
+    try (DataFileReader<GenericRecord> dataFileReader = new DataFileReader<>(file, datumReader)) {
+      GenericRecord customerRead = dataFileReader.next();
+      System.out.println("Successfully read avro file");
+      System.out.println(customerRead.toString());
+      System.out.println("First name: " + customerRead.get("first_name"));
+    } catch (IOException e) {
+      System.out.println("Couldn't read file");
+      e.printStackTrace();
+    }
   }
 }
