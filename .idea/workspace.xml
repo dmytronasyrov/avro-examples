@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f4b26020-0f6b-4bba-b655-4581be61d1e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pharosproduction/avro/generic/GenericRecordExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pharosproduction/avro/generic/GenericRecordExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pharosproduction/avro/generic/GenericRecordExamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pharosproduction/avro/generic/GenericRecordExamples.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-generic.avro" beforeDir="false" afterPath="$PROJECT_DIR$/customer-generic.avro" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1W2H06RW7jK6V4A4huhpGCJ1Brc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -73,12 +73,19 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SpecificRecord">
     <configuration name="GenericRecord" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.pharosproduction.avro.generic.GenericRecordExamples" />
+      <module name="avro-examples" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpecificRecord" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.pharosproduction.avro.specific.SpecificRecordExample" />
       <module name="avro-examples" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,9 +113,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.GenericRecord" />
+      <item itemvalue="Application.SpecificRecord" />
+    </list>
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
   </component>
   <component name="SbtLocalSettings">
     <option name="projectSyncType">
@@ -140,7 +152,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578340543677</updated>
-      <workItem from="1578340545209" duration="3036000" />
+      <workItem from="1578340545209" duration="3546000" />
+      <workItem from="1578344187292" duration="2113000" />
     </task>
     <servers />
   </component>
@@ -152,37 +165,38 @@
       <screen x="0" y="23" width="1680" height="964" />
     </state>
     <state x="60" y="169" key="#Project_Structure/0.23.1680.964@0.23.1680.964" timestamp="1578340567275" />
-    <state x="0" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578342460994">
+    <state x="0" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578345215847">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state x="0" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.962@0.23.1680.962" timestamp="1578342460994" />
-    <state x="176" y="314" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578343223482">
+    <state x="0" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.962@0.23.1680.962" timestamp="1578345215847" />
+    <state x="176" y="314" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578344090310">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state x="176" y="314" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.962@0.23.1680.962" timestamp="1578343223482" />
-    <state x="273" y="295" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1578342455733">
+    <state x="176" y="314" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.962@0.23.1680.962" timestamp="1578344090310" />
+    <state x="273" y="295" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1578345210235">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state x="273" y="295" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1680.962@0.23.1680.962" timestamp="1578342455733" />
-    <state width="938" height="258" key="GridCell.Tab.0.bottom" timestamp="1578343656988">
+    <state x="273" y="295" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1680.962@0.23.1680.962" timestamp="1578345210235" />
+    <state width="1111" height="258" key="GridCell.Tab.0.bottom" timestamp="1578346341340">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="938" height="258" key="GridCell.Tab.0.bottom/0.23.1680.962@0.23.1680.962" timestamp="1578343656988" />
-    <state width="938" height="258" key="GridCell.Tab.0.center" timestamp="1578343656987">
+    <state width="1111" height="258" key="GridCell.Tab.0.bottom/0.23.1680.962@0.23.1680.962" timestamp="1578346341340" />
+    <state width="1111" height="258" key="GridCell.Tab.0.center" timestamp="1578346341339">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="938" height="258" key="GridCell.Tab.0.center/0.23.1680.962@0.23.1680.962" timestamp="1578343656987" />
-    <state width="938" height="258" key="GridCell.Tab.0.left" timestamp="1578343656987">
+    <state width="1111" height="258" key="GridCell.Tab.0.center/0.23.1680.962@0.23.1680.962" timestamp="1578346341339" />
+    <state width="1111" height="258" key="GridCell.Tab.0.left" timestamp="1578346341338">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="938" height="258" key="GridCell.Tab.0.left/0.23.1680.962@0.23.1680.962" timestamp="1578343656987" />
-    <state width="938" height="258" key="GridCell.Tab.0.right" timestamp="1578343656988">
+    <state width="1111" height="258" key="GridCell.Tab.0.left/0.23.1680.962@0.23.1680.962" timestamp="1578346341338" />
+    <state width="1111" height="258" key="GridCell.Tab.0.right" timestamp="1578346341339">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
-    <state width="938" height="258" key="GridCell.Tab.0.right/0.23.1680.962@0.23.1680.962" timestamp="1578343656988" />
-    <state x="0" y="143" key="SettingsEditor" timestamp="1578340693905">
-      <screen x="0" y="23" width="1680" height="964" />
+    <state width="1111" height="258" key="GridCell.Tab.0.right/0.23.1680.962@0.23.1680.962" timestamp="1578346341339" />
+    <state x="0" y="143" key="SettingsEditor" timestamp="1578344949760">
+      <screen x="0" y="23" width="1680" height="962" />
     </state>
+    <state x="0" y="143" key="SettingsEditor/0.23.1680.962@0.23.1680.962" timestamp="1578344949760" />
     <state x="0" y="143" key="SettingsEditor/0.23.1680.964@0.23.1680.964" timestamp="1578340693905" />
   </component>
 </project>

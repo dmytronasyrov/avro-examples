@@ -1,0 +1,4 @@
+com/pharosproduction/avro/generic/GenericRecordExamples.class
+com/pharosproduction/avro/specific/Customer.class
+com/pharosproduction/avro/specific/Customer$Builder.class
+com/pharosproduction/avro/specific/SpecificRecordExample.class
