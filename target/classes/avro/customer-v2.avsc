@@ -1,0 +1,14 @@
+{
+    "type": "record",
+    "namespace": "com.pharosproduction.avro",
+    "name": "CustomerV2",
+    "fields": [
+        { "name": "first_name", "type": "string", "doc": "First Name of Customer" },
+        { "name": "last_name", "type": "string", "doc": "Last Name of Customer" },
+        { "name": "age", "type": "int", "doc": "Age of Customer" },
+        { "name": "height", "type": "float", "doc": "Height of Customer in cm" },
+        { "name": "weight", "type": "float", "doc": "Weight of Customer in kg" },
+        { "name": "phone_number", "type": ["null", "string"], "default": null, "doc": "Customer's phone number" },
+        { "name": "email", "type": "string", "default": "test@test.com", "doc": "Email address" }
+    ]
+}

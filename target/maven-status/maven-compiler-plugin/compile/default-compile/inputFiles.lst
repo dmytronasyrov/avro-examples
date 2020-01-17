@@ -1,3 +1,8 @@
-/Users/rudra/Projects/kafka/avro-examples/src/main/java/com/pharosproduction/avro/specific/SpecificRecordExample.java
-/Users/rudra/Projects/kafka/avro-examples/src/main/java/com/pharosproduction/avro/generic/GenericRecordExamples.java
-/Users/rudra/Projects/kafka/avro-examples/target/generated-sources/avro/com/pharosproduction/avro/specific/Customer.java
+/Users/rudra/Projects/avro-examples/src/main/java/com/pharosproduction/avro/generic/GenericRecordExamples.java
+/Users/rudra/Projects/avro-examples/src/main/java/com/pharosproduction/avro/reflection/ReflectedCustomer.java
+/Users/rudra/Projects/avro-examples/target/generated-sources/avro/com/pharosproduction/avro/specific/Customer.java
+/Users/rudra/Projects/avro-examples/target/generated-sources/avro/com/pharosproduction/avro/CustomerV1.java
+/Users/rudra/Projects/avro-examples/src/main/java/com/pharosproduction/avro/specific/SpecificRecordExample.java
+/Users/rudra/Projects/avro-examples/src/main/java/com/pharosproduction/avro/reflection/ReflectionExample.java
+/Users/rudra/Projects/avro-examples/src/main/java/com/pharosproduction/avro/evolution/SchemaEvolutionExamples.java
+/Users/rudra/Projects/avro-examples/target/generated-sources/avro/com/pharosproduction/avro/CustomerV2.java

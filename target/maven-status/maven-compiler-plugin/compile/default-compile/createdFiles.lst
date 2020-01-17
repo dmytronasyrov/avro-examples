@@ -1,4 +1,11 @@
 com/pharosproduction/avro/generic/GenericRecordExamples.class
 com/pharosproduction/avro/specific/Customer.class
+com/pharosproduction/avro/CustomerV1.class
+com/pharosproduction/avro/reflection/ReflectionExample.class
 com/pharosproduction/avro/specific/Customer$Builder.class
+com/pharosproduction/avro/CustomerV1$Builder.class
+com/pharosproduction/avro/evolution/SchemaEvolutionExamples.class
+com/pharosproduction/avro/reflection/ReflectedCustomer.class
 com/pharosproduction/avro/specific/SpecificRecordExample.class
+com/pharosproduction/avro/CustomerV2.class
+com/pharosproduction/avro/CustomerV2$Builder.class
