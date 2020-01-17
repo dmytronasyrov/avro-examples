@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4b26020-0f6b-4bba-b655-4581be61d1e0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +67,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
@@ -132,8 +134,8 @@
   <component name="SbtLocalSettings">
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$/../../Dojo/Github/dojo-auth" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../../vertx" value="PREVIEW" />
+        <entry key="$USER_HOME$/Dojo/Github/dojo-auth" value="PREVIEW" />
+        <entry key="$USER_HOME$/vertx" value="PREVIEW" />
       </map>
     </option>
   </component>
@@ -161,6 +163,7 @@
       <updated>1578340543677</updated>
       <workItem from="1578340545209" duration="3546000" />
       <workItem from="1578344187292" duration="3265000" />
+      <workItem from="1579281434607" duration="322000" />
     </task>
     <servers />
   </component>
