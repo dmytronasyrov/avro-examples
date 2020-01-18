@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f4b26020-0f6b-4bba-b655-4581be61d1e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pharosproduction/avro/evolution/SchemaEvolutionExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pharosproduction/avro/evolution/SchemaEvolutionExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pharosproduction/avro/evolution/SchemaEvolutionExamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pharosproduction/avro/evolution/SchemaEvolutionExamples.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pharosproduction/avro/producers/KafkaAvroConsumerV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pharosproduction/avro/producers/KafkaAvroConsumerV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pharosproduction/avro/producers/KafkaAvroProducerV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pharosproduction/avro/producers/KafkaAvroProducerV1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,8 +93,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KafkaAvroConsumerV2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.pharosproduction.avro.producers.KafkaAvroConsumerV2" />
+      <module name="avro-examples" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KafkaAvroProducerV1" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.pharosproduction.avro.producers.KafkaAvroProducerV1" />
+      <module name="avro-examples" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaAvroProducerV2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.pharosproduction.avro.producers.KafkaAvroProducerV2" />
       <module name="avro-examples" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,7 +160,9 @@
     <list>
       <item itemvalue="Application.SchemaEvolutionV1V2" />
       <item itemvalue="Application.KafkaAvroProducerV1" />
+      <item itemvalue="Application.KafkaAvroProducerV2" />
       <item itemvalue="Application.KafkaAvroConsumerV1" />
+      <item itemvalue="Application.KafkaAvroConsumerV2" />
       <item itemvalue="Application.GenericRecord" />
       <item itemvalue="Application.SpecificRecord" />
       <item itemvalue="Application.ReflectedRecord" />
@@ -189,7 +204,7 @@
       <updated>1578340543677</updated>
       <workItem from="1578340545209" duration="3546000" />
       <workItem from="1578344187292" duration="3265000" />
-      <workItem from="1579281434607" duration="4924000" />
+      <workItem from="1579281434607" duration="6289000" />
     </task>
     <servers />
   </component>
@@ -201,11 +216,11 @@
       <screen x="0" y="23" width="1680" height="964" />
     </state>
     <state x="60" y="169" key="#Project_Structure/0.23.1680.964@0.23.1680.964" timestamp="1578340567275" />
-    <state x="0" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579335099403">
+    <state x="0" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579337310535">
       <screen x="0" y="23" width="1680" height="964" />
     </state>
     <state x="0" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.962@0.23.1680.962" timestamp="1578347978113" />
-    <state x="0" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.964@0.23.1680.964" timestamp="1579335099403" />
+    <state x="0" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.964@0.23.1680.964" timestamp="1579337310535" />
     <state x="0" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.965@0.23.1680.965" timestamp="1579282783984" />
     <state x="176" y="314" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578344090310">
       <screen x="0" y="23" width="1680" height="962" />
@@ -215,41 +230,45 @@
       <screen x="0" y="23" width="1680" height="962" />
     </state>
     <state x="310" y="227" key="#com.intellij.ide.util.MemberChooser/0.23.1680.962@0.23.1680.962" timestamp="1578347654979" />
-    <state x="273" y="296" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1579335097315">
+    <state x="273" y="296" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1579337034681">
       <screen x="0" y="23" width="1680" height="964" />
     </state>
     <state x="273" y="295" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1680.962@0.23.1680.962" timestamp="1578347976208" />
-    <state x="273" y="296" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1680.964@0.23.1680.964" timestamp="1579335097315" />
+    <state x="273" y="296" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1680.964@0.23.1680.964" timestamp="1579337034681" />
     <state x="273" y="296" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1680.965@0.23.1680.965" timestamp="1579282781425" />
-    <state width="1638" height="258" key="GridCell.Tab.0.bottom" timestamp="1579335477179">
+    <state width="1638" height="258" key="GridCell.Tab.0.bottom" timestamp="1579337358873">
       <screen x="0" y="23" width="1680" height="964" />
     </state>
     <state width="953" height="258" key="GridCell.Tab.0.bottom/0.23.1680.962@0.23.1680.962" timestamp="1578348130740" />
-    <state width="1638" height="258" key="GridCell.Tab.0.bottom/0.23.1680.964@0.23.1680.964" timestamp="1579335477179" />
+    <state width="1638" height="258" key="GridCell.Tab.0.bottom/0.23.1680.964@0.23.1680.964" timestamp="1579337358873" />
     <state width="881" height="258" key="GridCell.Tab.0.bottom/0.23.1680.965@0.23.1680.965" timestamp="1579282792844" />
-    <state width="1638" height="258" key="GridCell.Tab.0.center" timestamp="1579335477173">
+    <state width="1638" height="258" key="GridCell.Tab.0.center" timestamp="1579337358873">
       <screen x="0" y="23" width="1680" height="964" />
     </state>
     <state width="953" height="258" key="GridCell.Tab.0.center/0.23.1680.962@0.23.1680.962" timestamp="1578348130739" />
-    <state width="1638" height="258" key="GridCell.Tab.0.center/0.23.1680.964@0.23.1680.964" timestamp="1579335477173" />
+    <state width="1638" height="258" key="GridCell.Tab.0.center/0.23.1680.964@0.23.1680.964" timestamp="1579337358873" />
     <state width="881" height="258" key="GridCell.Tab.0.center/0.23.1680.965@0.23.1680.965" timestamp="1579282792842" />
-    <state width="1638" height="258" key="GridCell.Tab.0.left" timestamp="1579335477170">
+    <state width="1638" height="258" key="GridCell.Tab.0.left" timestamp="1579337358872">
       <screen x="0" y="23" width="1680" height="964" />
     </state>
     <state width="953" height="258" key="GridCell.Tab.0.left/0.23.1680.962@0.23.1680.962" timestamp="1578348130738" />
-    <state width="1638" height="258" key="GridCell.Tab.0.left/0.23.1680.964@0.23.1680.964" timestamp="1579335477170" />
+    <state width="1638" height="258" key="GridCell.Tab.0.left/0.23.1680.964@0.23.1680.964" timestamp="1579337358872" />
     <state width="881" height="258" key="GridCell.Tab.0.left/0.23.1680.965@0.23.1680.965" timestamp="1579282792842" />
-    <state width="1638" height="258" key="GridCell.Tab.0.right" timestamp="1579335477175">
+    <state width="1638" height="258" key="GridCell.Tab.0.right" timestamp="1579337358873">
       <screen x="0" y="23" width="1680" height="964" />
     </state>
     <state width="953" height="258" key="GridCell.Tab.0.right/0.23.1680.962@0.23.1680.962" timestamp="1578348130740" />
-    <state width="1638" height="258" key="GridCell.Tab.0.right/0.23.1680.964@0.23.1680.964" timestamp="1579335477175" />
+    <state width="1638" height="258" key="GridCell.Tab.0.right/0.23.1680.964@0.23.1680.964" timestamp="1579337358873" />
     <state width="881" height="258" key="GridCell.Tab.0.right/0.23.1680.965@0.23.1680.965" timestamp="1579282792843" />
     <state x="0" y="143" key="SettingsEditor" timestamp="1578344949760">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
     <state x="0" y="143" key="SettingsEditor/0.23.1680.962@0.23.1680.962" timestamp="1578344949760" />
     <state x="0" y="143" key="SettingsEditor/0.23.1680.964@0.23.1680.964" timestamp="1578340693905" />
+    <state x="506" y="266" width="667" height="476" key="find.popup" timestamp="1579337122821">
+      <screen x="0" y="23" width="1680" height="964" />
+    </state>
+    <state x="506" y="266" width="667" height="476" key="find.popup/0.23.1680.964@0.23.1680.964" timestamp="1579337122821" />
     <state x="162" y="234" width="670" height="676" key="search.everywhere.popup" timestamp="1578347680764">
       <screen x="0" y="23" width="1680" height="962" />
     </state>
