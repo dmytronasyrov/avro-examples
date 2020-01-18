@@ -40,5 +40,7 @@ public class SchemaEvolutionExamples {
       final CustomerV2 customerV2 = dataFileReaderV2.next();
       System.out.println("Customer V2: " + customerV2.toString());
     }
+
+    System.out.println("Backward schema evolution successful");
   }
 }
